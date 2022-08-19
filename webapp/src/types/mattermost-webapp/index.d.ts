@@ -1,5 +1,5 @@
-export interface PluginRegistry {
-    registerPostTypeComponent(typeName: string, component: React.ElementType)
+import React from 'react';
 
-    // Add more if needed from https://developers.mattermost.com/extend/plugins/webapp/reference
+export interface PluginRegistry {
+    registerIntegrationType(name: string, description: string, route: string, icon: string, component: React.ElementType);
 }
