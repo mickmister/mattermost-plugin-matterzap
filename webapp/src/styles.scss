@@ -1,0 +1,29 @@
+.matterzap-backstage {
+}
+
+.matterzap-editor {
+    textarea {
+        font-size: 12px;
+        height: 105px;
+        width: 600px;
+    }
+
+    .matterzap-post-body-preview {
+        height: 200px;
+        border: 1px solid;
+        display: block;
+    }
+
+    .zap-box {
+        border: solid 1px;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .zap-condition-editor {
+        select {
+            display: inline;
+            margin: 5px;
+        }
+    }
+}

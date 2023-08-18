@@ -66,8 +66,9 @@ export default class BackstageList extends React.PureComponent<Props> {
         if (this.props.addLink && this.props.addText) {
             addLink = (
                 <div>
-                    {'Add Link'}
+                    {/* {'Add Link'} */}
                 </div>
+
                 // <Link
                 //     className='add-link'
                 //     to={this.props.addLink}
